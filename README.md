@@ -13,7 +13,7 @@ These files follow a successful submission of my formatted dissertation to the U
 
 1. Clone the repo to a local folder on your computer.
 2. Open [dissertation.Rmd](dissertation.Rmd) in RStudio.
-    * In the yaml header, make sure that your ```{r} pandoc_args:``` section has the correct path to where pando-eqnos is installed
+    * In the yaml header, make sure that your ```pandoc_args:``` section has the correct path to where pando-eqnos is installed. This will be different depending on your operating system and version of python installed.
     * Hit the 'Knit PDF' button in the window containing the dissertation.Rmd code.
     * You should get a [formatted PDF](dissertation.pdf) with the content in this template.
 3. Modify the files to fit your content. 

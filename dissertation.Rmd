@@ -1,19 +1,21 @@
 ---
+bibliography: includes/bib/lit-review.bib
 classoption: report
 documentclass: uncdissertation
 fontsize: 12pt
-bibliography: includes/bib/lit-review.bib
 output:
+  word_document:
+    toc: no
   pdf_document:
     includes:
-      fig.caption: true
       before_body: includes/tex/doc_prefix_unc.tex
+      fig.caption: yes
       in_header: includes/tex/header-unc.tex
     keep_tex: yes
     number_sections: yes
     pandoc_args:
     - --filter
-    - C:/Python27/Scripts/pandoc-eqnos.exe
+    - C:/Python38/Scripts/pandoc-eqnos.exe
     toc: no
 ---
 
@@ -44,7 +46,7 @@ Using pandoc-eqnos python program in pandoc to number equations:  https://github
 <!-- =========================== -->
 
 \chapter{\uppercase{Manuscript 1 --- Title here}}
-\addcontentsline{toc}{chapter}{\uppercase{Chapter 1: Manuscript 1 --- Title here}}
+\addcontentsline{toc}{chapter}{\uppercase{Chapter 1: From intermittent to continuous water supply under increasing water prices - How does water demand change?}}
 
 
 ```{r, child='./sections/ms1.Rmd', eval=T}
@@ -55,7 +57,7 @@ Using pandoc-eqnos python program in pandoc to number equations:  https://github
 ```{r, child='includes/scripts/paper1/tables-figs.Rmd', eval=T}
 ```
 
-\chapter{\uppercase{Manuscript 2 --- Title here. Make this a very long title to demonstrate that the title is single spaced in the table of contents as required by the graduate school.}}
+\chapter{\uppercase{Chapter 2: What's in a Water Bill? Water bill payment behavior and service quality, r.}}
 \addcontentsline{toc}{chapter}{\uppercase{Manuscript 2 --- Title here. Make this a very long title to demonstrate that the title is single spaced in the table of contents as required by the graduate school.}}
 
 ```{r, child='./sections/ms2.Rmd', eval=T}

@@ -10,7 +10,7 @@ This is another methods section. Another citation here [@labarthe_epidemiology_2
 
 ## Study sample
 
-Put a description here with subheading.
+Put a description here with subheading[@bivins_estimating_2017].
 
 
 # Results

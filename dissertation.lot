@@ -3,12 +3,22 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.1}{\ignorespaces Table for paper 1.\relax }}{2}{table.1.1}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces \relax }}{3}{table.caption.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces \relax }}{3}{table.caption.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.3}{\ignorespaces \relax }}{3}{table.caption.8}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces List 1.\relax }}{4}{table.2.1}
+\contentsline {table}{\numberline {3.1}{\ignorespaces List 1.\relax }}{5}{table.3.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces List 1.\relax }}{7}{table.A.1}
+\contentsline {table}{\numberline {4.1}{\ignorespaces List 1.\relax }}{8}{table.4.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {A.1}{\ignorespaces List 1.\relax }}{11}{table.A.1}

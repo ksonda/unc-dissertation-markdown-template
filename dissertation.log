@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.30)  20 NOV 2019 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.10.30)  20 NOV 2019 22:30
 entering extended mode
 **./dissertation.tex
 (dissertation.tex
@@ -1808,7 +1808,14 @@ File: english.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
 LaTeX Warning: Unused global option(s):
     [report].
 
-(dissertation.aux)
+(dissertation.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `dissertation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 261.
@@ -1921,21 +1928,300 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 261.
 LaTeX Info: Redefining \pageref on input line 261.
 LaTeX Info: Redefining \nameref on input line 261.
-(dissertation.out) (dissertation.out
-! I can't write on file `dissertation.pdf'.
-Please type another file name for output
-! Emergency stop.
-\Hy@OutlineName ...utline goto name{#2}count#3{#4}
-                                                  
-l.1 ...0F\000\040\000T\000A\000B\000L\000E\000S}{}
-                                                  % 1 
-Here is how much of TeX's memory you used:
- 38244 strings out of 492973
- 681984 string characters out of 3126691
- 1186639 words of memory out of 3000000
- 41281 multiletter control sequences out of 15000+200000
- 13054 words of font info for 24 fonts, out of 3000000 for 9000
- 1322 hyphenation exceptions out of 8191
- 55i,1n,65p,1100b,1688s stack positions out of 5000i,500n,10000p,200000b,50000s
+(dissertation.out) (dissertation.out)
+\@outlinefile=\write6
+\openout6 = `dissertation.out'.
 
-!  ==> Fatal error occurred, no output PDF file produced!
+
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count417
+\scratchdimen=\dimen305
+\scratchbox=\box88
+\nofMPsegments=\count418
+\nofMParguments=\count419
+\everyMPshowfont=\toks86
+\MPscratchCnt=\count420
+\MPscratchDim=\dimen306
+\MPnumerator=\count421
+\makeMPintoPDFobject=\count422
+\everyMPtoPDFconversion=\toks87
+)
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `dissertation.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'dissertation.bbl' found.
+(dissertation.bbl)
+Package biblatex Info: Reference section=0 on input line 261.
+Package biblatex Info: Reference segment=0 on input line 261.
+ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(sections/2_abstract.tex) (sections/1_dedication.tex)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 284.
+
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 284.
+
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 284
+.
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 284
+.
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 284.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 284.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 284.
+LaTeX Font Info:    Try loading font information for U+msa on input line 284.
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa.c
+fg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 284.
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.c
+fg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 284.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 284.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 284.
+[1
+
+
+{C:/Users/kyleo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 285.
+
+("C:\Users\kyleo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2
+
+] [3
+
+] [4
+
+]
+\oldbaselineskip=\skip141
+\oldparskip=\skip142
+
+LaTeX Warning: Citation '?' on page 5 undefined on input line 346.
+
+(dissertation.toc [5
+
+
+])
+\tf@toc=\write7
+\openout7 = `dissertation.toc'.
+
+[6] (dissertation.lot)
+\tf@lot=\write8
+\openout8 = `dissertation.lot'.
+
+[7
+
+] (dissertation.lof)
+\tf@lof=\write9
+\openout9 = `dissertation.lof'.
+
+[8] [9
+
+]
+Chapter 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 419.
+
+[1
+
+
+]
+Chapter 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 447.
+
+[2
+
+] [3]
+Package epstopdf Info: Source file: <includes/figures/fig1.eps>
+(epstopdf)                    date: 2019-11-20 22:29:41
+(epstopdf)                    size: 11426 bytes
+(epstopdf)             Output file: <includes/figures/fig1-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-11-20 22:29:52
+(epstopdf)                    size: 14720 bytes
+(epstopdf)             Command: <epstopdf --outfile=includes/figures/fig1-eps-c
+onverted-to.pdf includes/figures/fig1.eps>
+(epstopdf)             \includegraphics on input line 532.
+Package epstopdf Info: Output file is already uptodate.
+<includes/figures/fig1-eps-converted-to.pdf, id=267, 505.89pt x 361.35pt>
+File: includes/figures/fig1-eps-converted-to.pdf Graphic file (type pdf)
+<use includes/figures/fig1-eps-converted-to.pdf>
+Package pdftex.def Info: includes/figures/fig1-eps-converted-to.pdf  used on in
+put line 532.
+(pdftex.def)             Requested size: 505.88875pt x 361.34912pt.
+[4
+
+ <./includes/figures/fig1-eps-converted-to.pdf>]
+Chapter 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 538.
+
+[5
+
+
+] [6]
+Package epstopdf Info: Source file: <includes/figures/fig2.eps>
+(epstopdf)                    date: 2019-11-20 22:29:44
+(epstopdf)                    size: 21531 bytes
+(epstopdf)             Output file: <includes/figures/fig2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-11-20 22:29:53
+(epstopdf)                    size: 12818 bytes
+(epstopdf)             Command: <epstopdf --outfile=includes/figures/fig2-eps-c
+onverted-to.pdf includes/figures/fig2.eps>
+(epstopdf)             \includegraphics on input line 601.
+Package epstopdf Info: Output file is already uptodate.
+<includes/figures/fig2-eps-converted-to.pdf, id=299, 505.89pt x 361.35pt>
+File: includes/figures/fig2-eps-converted-to.pdf Graphic file (type pdf)
+<use includes/figures/fig2-eps-converted-to.pdf>
+Package pdftex.def Info: includes/figures/fig2-eps-converted-to.pdf  used on in
+put line 601.
+(pdftex.def)             Requested size: 505.88875pt x 361.34912pt.
+[7
+
+
+ <./includes/figures/fig2-eps-converted-to.pdf>]
+Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 607.
+
+[8
+
+
+] [9]
+Package epstopdf Info: Source file: <includes/figures/fig2.eps>
+(epstopdf)                    date: 2019-11-20 22:29:44
+(epstopdf)                    size: 21531 bytes
+(epstopdf)             Output file: <includes/figures/fig2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-11-20 22:29:53
+(epstopdf)                    size: 12818 bytes
+(epstopdf)             Command: <epstopdf --outfile=includes/figures/fig2-eps-c
+onverted-to.pdf includes/figures/fig2.eps>
+(epstopdf)             \includegraphics on input line 670.
+Package epstopdf Info: Output file is already uptodate.
+File: includes/figures/fig2-eps-converted-to.pdf Graphic file (type pdf)
+<use includes/figures/fig2-eps-converted-to.pdf>
+Package pdftex.def Info: includes/figures/fig2-eps-converted-to.pdf  used on in
+put line 670.
+(pdftex.def)             Requested size: 505.88875pt x 361.34912pt.
+[10
+
+
+]
+Appendix A.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 684.
+
+[11
+
+
+
+]
+
+LaTeX Warning: Empty bibliography on input line 724.
+
+[12
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 735.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 735.
+(dissertation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 735.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 735.
+Package rerunfilecheck Info: File `dissertation.out' has not changed.
+(rerunfilecheck)             Checksum: F416649BD4CFE2AB92CE27CE6636DFCE;6649.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                dissertation
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'dissertation.run.xml'.
+\openout1 = `dissertation.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 735.
+ ) 
+Here is how much of TeX's memory you used:
+ 39391 strings out of 492973
+ 701991 string characters out of 3126691
+ 1224664 words of memory out of 3000000
+ 42170 multiletter control sequences out of 15000+200000
+ 62765 words of font info for 93 fonts, out of 3000000 for 9000
+ 1322 hyphenation exceptions out of 8191
+ 55i,10n,65p,1101b,2095s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
+c}{C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.en
+c}{C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
+t.enc}{C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-t
+s1.enc}<C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+lmbx12.pfb><C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/lm/lmmi12.pfb><C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmr12.pfb><C:/Users/kyleo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmri12.pfb>
+Output written on dissertation.pdf (21 pages, 168121 bytes).
+PDF statistics:
+ 393 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 17183 words of extra memory for PDF output out of 17280 (max. 10000000)
+

@@ -1,5 +1,5 @@
 ---
-author: "Ann Von Holle"
+author: "Kyle Onda"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output:
   pdf_document:
@@ -7,7 +7,7 @@ output:
     number_sections: yes
     pandoc_args:
     - --filter
-    - C:/Python27/Scripts/pandoc-eqnos.exe
+    - C:/Python38/Scripts/pandoc-eqnos.exe
     toc: yes
     toc_depth: 3
   html_document:

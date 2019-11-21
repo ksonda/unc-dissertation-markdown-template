@@ -4,8 +4,6 @@ classoption: report
 documentclass: uncdissertation
 fontsize: 12pt
 output:
-  word_document:
-    toc: no
   pdf_document:
     includes:
       before_body: includes/tex/doc_prefix_unc.tex
@@ -16,7 +14,9 @@ output:
     pandoc_args:
     - --filter
     - C:/Python38/Scripts/pandoc-eqnos.exe
-    toc: no
+  #   toc: no
+  # word_document:
+  #   toc: no
 ---
 
 
@@ -45,7 +45,15 @@ Using pandoc-eqnos python program in pandoc to number equations:  https://github
 <!-- START MAIN MATTER HERE -->
 <!-- =========================== -->
 
-\chapter{\uppercase{Manuscript 1 --- Title here}}
+\chapter{\uppercase{Inroduction}}
+\addcontentsline{toc}{chapter}{\uppercase{Introduction}}
+
+
+```{r, child='./sections/intro.Rmd', eval=T}
+```
+
+
+\chapter{\uppercase{Chapter 1: From intermittent to continuous water supply under increasing water prices - How does water demand change?}}
 \addcontentsline{toc}{chapter}{\uppercase{Chapter 1: From intermittent to continuous water supply under increasing water prices - How does water demand change?}}
 
 
@@ -57,18 +65,33 @@ Using pandoc-eqnos python program in pandoc to number equations:  https://github
 ```{r, child='includes/scripts/paper1/tables-figs.Rmd', eval=T}
 ```
 
-\chapter{\uppercase{Chapter 2: What's in a Water Bill? Water bill payment behavior and service quality, r.}}
-\addcontentsline{toc}{chapter}{\uppercase{Manuscript 2 --- Title here. Make this a very long title to demonstrate that the title is single spaced in the table of contents as required by the graduate school.}}
+\chapter{\uppercase{Chapter 2: What's in a Water Bill? Water bill payment behavior and service quality, prices, and household characteristics in Amravati, Maharashtra, India.}}
+\addcontentsline{toc}{chapter}{\uppercase{Chapter 2: What's in a Water Bill? Water bill payment behavior and service quality, prices, and household characteristics in Amravati, Maharashtra, India.}}
 
 ```{r, child='./sections/ms2.Rmd', eval=T}
 ```
 
-<!-- Include tables and figures for first manuscript -->
+<!-- Include tables and figures for second manuscript -->
 
 ```{r, child='includes/scripts/paper2/tables-figs.Rmd', eval=T}
 ```
 
+\chapter{\uppercase{Chapter 3: Intermittent to Continuous Water Supply: Implications for water demand, supply, revenue and long-term planning horizons in Amravati, Maharashtra, India.}}
+\addcontentsline{toc}{chapter}{\uppercase{Chapter 3: Intermittent to Continuous Water Supply: Implications for water demand, supply, revenue and long-term planning horizons in Amravati, Maharashtra, India.}}
 
+```{r, child='./sections/ms3.Rmd', eval=T}
+```
+
+<!-- Include tables and figures for third manuscript -->
+
+```{r, child='includes/scripts/paper3/tables-figs.Rmd', eval=T}
+```
+
+\chapter{\uppercase{Conclusion}}
+\addcontentsline{toc}{chapter}{\uppercase{Conclusion}}
+
+```{r, child='./sections/conclusion.Rmd', eval=T}
+```
 <!-- Include references -->
 
 \setlength{\parindent}{-0.2in}

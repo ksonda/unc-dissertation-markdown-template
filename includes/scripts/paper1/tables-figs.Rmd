@@ -1,5 +1,5 @@
 ---
-author: "author name here"
+author: "Kyle Onda"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output:
   pdf_document:
@@ -25,6 +25,7 @@ knitr::opts_chunk$set(root.dir = "~GitHub/unc-dissertation-markdown-template/inc
 require(knitr)
 require(kableExtra)
 require(ggplot2)
+require(stargazer)
 ```
 
 # Tables
@@ -36,16 +37,20 @@ require(ggplot2)
 data(mtcars)
 dt <- mtcars[1:5, 1:3]
 
-kable(dt,
-      booktabs=T,
-      longtable=T,
-      format="latex",
-      row.names=T,
-      escape=F,
-      caption='Table for paper 1.',
-      col.names = c("column 1", "column 2", "column 3")) %>%
-    add_header_above(c(" "=1, "The rest"=2)) %>%
-    kable_styling(latex_options=c("HOLD_position", "scale_down", "repeat_header"))
+stargazer(dt, header=FALSE, type='latex')
+stargazer(dt, header=FALSE, type='latex')
+stargazer(dt, header=FALSE, type='latex')
+# 
+# kable(dt,
+#       booktabs=T,
+#       longtable=T,
+#       format="latex",
+#       row.names=T,
+#       escape=F,
+#       caption='Table for paper 1.',
+#       col.names = c("column 1", "column 2", "column 3")) %>%
+#     add_header_above(c(" "=1, "The rest"=2)) %>%
+#     kable_styling(latex_options=c("HOLD_position", "scale_down", "repeat_header"))
 
 ```
 

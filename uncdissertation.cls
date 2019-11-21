@@ -422,7 +422,7 @@
   \disstype{thesis}
   \dissdegree{Master of Science}
 \fi
-\dissdept{Department of Epidemiology in the Gillings School of Global Public Health}
+\dissdept{Department of City and Regional Planning in the College of Arts and Sciences}
 
 %The blurb on the title page will be automatically constructed from the above information. If you need to change it, you can redefine this variable.
 \DeclareAuthorVariable*{dissblurb}
@@ -450,11 +450,11 @@
 
 %A shortcut command to quickly set the names of the advisor and the 4 comittee members, in order.
 \newcommand{\committee}[5]{%
-  \advisor{#1}%
-  \readerA{#2}%
-  \readerB{#3}%
-  \readerC{#4}%
-  \readerD{#5}%
+  \advisor{Meenu Tewari}%
+  \readerA{Todd BenDor}%
+  \readerB{Marc Jeuland}%
+  \readerC{Nikhil Kaza}%
+  \readerD{Emily Kumpel}%
 }
 
 

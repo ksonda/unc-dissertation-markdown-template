@@ -1,0 +1,8 @@
+# Introduction
+
+There are long-standing and continuing disparities in the quality of water and sanitation services accessed by citizens in the Global South, despite considerable investments made by governments and multilateral aid organizations since the 1950s to improve the quality and spread of service networks (WHO, 2015). These gaps include lack of access to piped water and safe sanitation by the poor altogether, as well as inadequate service levels characterized by poor reliability and water quality for those already connected to piped networks (Lee and Schwab 2005). WHO & UNICEF currently estimate that 578 million urban residents (15 % of the global urban population) do not have access to a reliable source of clean water to taps inside the home. Governments, financial institutions, donors, civil society groups, and academics have advanced various perspectives explaining why these gaps persist, along with similarly varied strategies to address them. 
+
+One family of explanations can be summarized as a “vicious cycle” (Spiller & Savedoff, 1999). The cycle (Figure 1) is a situation where given poor cost recovery of services provided, water utilities have insufficient revenues to cover the costs of maintenance and service expansion, leading to poor service, generating low willingness to pay for piped water, which in turn leads back to insufficient revenues. 
+
+
+
